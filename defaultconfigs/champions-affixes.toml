@@ -1,0 +1,96 @@
+[[affixes]]
+  identifier = "适应的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "极寒的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "抑制的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "亵渎的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "燃烧的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "仓促的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "为患的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "锤击的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "活泼的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "磁性的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "惊愕的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "炽炎的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "困扰的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "反射的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "防护的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"
+[[affixes]]
+  identifier = "致伤的"
+  enabled = true
+  minTier = 1
+  mobList = []
+  mobPermission = "BLACKLIST"

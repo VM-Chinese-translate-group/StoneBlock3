@@ -1,0 +1,21 @@
+{
+  "shaders": [
+    {
+      "resourceLocation": "darkmodeeverywhere:perfect_dark",
+      "displayName": "\u4e4c\u9ed1\u6a21\u5f0f",
+      "darkColorReplacement": 16777215
+    },
+    {
+      "resourceLocation": "darkmodeeverywhere:less_perfect_dark",
+      "displayName": "\u4eae\u9ed1\u6a21\u5f0f",
+      "darkColorReplacement": 16777215
+    },
+    {
+      "resourceLocation": "darkmodeeverywhere:toasted_light",
+      "displayName": "\u539f\u7248\u6a21\u5f0f",
+      "darkColorReplacement": 16777215
+    }
+  ],
+  "version": 1,
+  "selectedShader": "darkmodeeverywhere:toasted_light"
+}

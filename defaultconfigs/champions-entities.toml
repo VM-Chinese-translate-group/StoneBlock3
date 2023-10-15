@@ -1,0 +1,7 @@
+[[entities]]
+  entity = "minecraft:creeper"
+  minTier = 0
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["锤击的", "致伤的", "惊愕的", "炽炎的"]
+  affixPermission = "BLACKLIST"
