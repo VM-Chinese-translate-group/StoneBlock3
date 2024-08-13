@@ -12,12 +12,12 @@ onEvent("player.logged_in", (event) => {
   let birthdays = [
     ["Gaz", "3-9", "模组开发者"],
     ["OfficialyMax", "3-10", "任务笔者"],
-    ["Dinnerbeef & UnRealDinnerbone", "6-8", "内测员"],
+    ["Dinnerbeef & UnRealDinnerbone", "6-8", "内部测试员"],
     ["Slowpoke101", "6-19", "我们滴神"],
-    ["manmaed", "6-30", "内测员"],
+    ["manmaed", "6-30", "内部测试员"],
     ["Loneztar", "7-15", "测试团队总监"],
     ["Mikey", "10-11", "模组开发总监"],
-    ["5ully_", "10-15", "内测员"],
+    ["5ully_", "10-15", "内部测试员"],
     ["Sunekaer", "10-20", "整合包作者"],
     ["aaronhowser1", "12-2", "任务笔者"],
   ];
