@@ -59,7 +59,7 @@
   "sb3.welcome.servers.desc4": "当你在队伍的时候，你可以利用*&6/ftbstoneblock home&r来传送回你所拥有维度的启始坐标（0, 0）。",
   "sb3.welcome.servers.desc5": "你可以利用指令&6/ftbstoneblock lobby&r来传送回初始大厅。",
   "sb3.welcome.events.title": "事件",
-  "sb3.welcome.events.subtitle": "有时，事情就这样神器的发生了",
+  "sb3.welcome.events.subtitle": "有时，事情就这样神奇的发生了",
   "sb3.welcome.events.desc1": "在你的石头世界3之旅中，你可能会遭遇各种各样的&6特殊事件&r。这些事件是随机发生的。",
   "sb3.welcome.events.desc2": "我们不会剧透事件的具体内容，唯一可以告诉你的就是这些事件可能只是给你一些&e小玩意儿&r，或者只是&e个乐子&r甚至是一些&e恼人&r的笑话（这得取决于你）。",
   "sb3.welcome.events.desc3": "如果你想要单独关闭某一个事件，或是查看事件的列表，你可以使用&6/events toggle &e<eventname>&r命令。",
