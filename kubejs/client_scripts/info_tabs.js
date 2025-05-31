@@ -97,7 +97,7 @@ onEvent('rei.information', (event) => {
 		[
 			'手持书右击原版鸡，可将原版鸡转化为智慧鸡',
 			' ',
-			'Just like a normal Chicken, making normal eggs, but has stats and can use the Roost and Henhouse'
+			'与普通鸡类似，会产普通鸡蛋，但拥有属性值且可使用鸡舍'
 		]
 	)
 })
