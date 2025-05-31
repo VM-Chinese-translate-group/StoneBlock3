@@ -38,3 +38,12 @@ onEvent('block.place',(event) => {
       }
     }
 })
+
+
+onEvent("block.right_click", (event) => {
+  if (event.block.id == "chipped:carpenters_table") {
+    if(event.player.mainHandItem.id === "thermal:wrench") {
+      event.cancel();
+    }
+  }
+});

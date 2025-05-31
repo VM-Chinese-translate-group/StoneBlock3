@@ -1,7 +1,7 @@
 // priority: 800
 const wanderingtraderEvent = {
   name: "ftbstoneblock:wandering_trader",
-  chance: 0.25,
+  chance: 0.15,
   minDistance: 3,
   maxDistance: 10,
   size: 1,

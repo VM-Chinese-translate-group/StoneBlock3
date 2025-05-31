@@ -1,20 +1,20 @@
+const InfoLoader = java("dev.ftb.mods.promoter.api.InfoFetcher")
+const BisectScreen = java("com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen")
+
+function isPromoAvailable(id) {
+  const promoData = InfoLoader.get().getPromotions()
+
+  for (const data of promoData){
+    if (data.uuid().toString() == id){
+      return true
+    }
+  }
+  return false
+}
+
 onEvent("ui.main_menu", (event) => {
   event.replace((ui) => {
     ui.fillBackground("ftbstoneblock:textures/ui/bg.png", 2000, 1000);
-
-    //If MT is loaded
-    if (Platform.mods.minetogether) {
-      //MineTogether order server
-      ui.image((i) => {
-        i.height = 550 * 0.035 * (ui.w / ui.h);
-        i.width = 900 * 0.035 * (ui.w / ui.h);
-        i.x = 2;
-        i.y = ui.h - i.h - 2;
-        i.texture = "ftbstoneblock:textures/ui/button/sponsor.png";
-        i.hoverTexture = "ftbstoneblock:textures/ui/button/sponsor_hover.png";
-        i.action = "minetogether:order";
-      });
-    }
 
     // Pack logo
     ui.image((i) => {
@@ -89,7 +89,7 @@ onEvent("ui.main_menu", (event) => {
     ui.image((i) => {
       i.height = lh;
       i.width = lw;
-      i.x = ui.width / 2 - lw * 3.0 - i.w;
+      i.x = ui.width / 2 - lw * 4.6 - i.w;
       i.y = ly;
       i.texture = "ftbstoneblock:textures/ui/button/lang.png";
       i.hoverTexture = "ftbstoneblock:textures/ui/button/lang_hover.png";
@@ -100,18 +100,47 @@ onEvent("ui.main_menu", (event) => {
     ui.image((i) => {
       i.height = lh;
       i.width = lw * 3.0;
-      i.x = ui.width / 2 - i.width - 1;
+      i.x = ui.width / 2 - i.width - lw * 1.7 - 1;
       i.y = ly;
       i.texture = "ftbstoneblock:textures/ui/button/mods.png";
       i.hoverTexture = "ftbstoneblock:textures/ui/button/mods_hover.png";
       i.action = "forge:mod_list";
     });
 
+    //If FTB Worlds is loaded
+    if (Platform.mods.rgp_client && isPromoAvailable("8f2ad888-00c3-4417-ac62-f0b43d86ccfd")) {
+      //FTB Worlds
+      ui.image((i) => {        
+        i.height = 342 * 0.000255 * ui.h;
+        i.width = 873 * 0.000255 * ui.h;
+
+        i.x = (ui.width / 2) - i.width / 2;
+        i.y = ly - (i.height / 7) + 1;
+        i.texture = "ftbstoneblock:textures/ui/button/ftb_worlds.png";
+        i.hoverTexture = "ftbstoneblock:textures/ui/button/ftb_worlds_hover.png";
+        i.action = "rgp_client:ftb_worlds";
+      });
+    }
+
+    //If Bisect is loaded
+    if (Platform.mods.bhmenu && isPromoAvailable("1d866d7a-9e2c-44e2-b655-b9e5d9490f68")) {
+      //Bisect order server
+      ui.image((i) => {
+        i.height = 297 * 0.035 * (ui.w / ui.h);
+        i.width = 1105 * 0.035 * (ui.w / ui.h);
+        i.x = ui.w - i.w - 2;
+        i.y = 5;
+        i.texture = "ftbstoneblock:textures/ui/button/sb3_bisect.png";
+        i.hoverTexture = "ftbstoneblock:textures/ui/button/sb3_bisect_hover.png";
+        i.action = "ftbpromoter:bisecthosting";
+      });
+    }
+
     //options
     ui.image((i) => {
       i.height = lh;
       i.width = lw * 3.0;
-      i.x = ui.width / 2 + 1;
+      i.x = ui.width / 2 + lw * 1.75;
       i.y = ly;
       i.texture = "ftbstoneblock:textures/ui/button/options.png";
       i.hoverTexture = "ftbstoneblock:textures/ui/button/options_hover.png";
@@ -122,7 +151,7 @@ onEvent("ui.main_menu", (event) => {
     ui.image((i) => {
       i.height = lh;
       i.width = lw;
-      i.x = ui.width / 2 + lw * 3.0 + 1;
+      i.x = ui.width / 2 + lw * 4.6;
       i.y = ly;
       i.texture = "ftbstoneblock:textures/ui/button/exit.png";
       i.hoverTexture = "ftbstoneblock:textures/ui/button/exit_hover.png";
@@ -132,14 +161,14 @@ onEvent("ui.main_menu", (event) => {
     //Mojang
     ui.label((l) => {
       l.height = 7;
-      l.name = Text.of("Minecraft, © Mojang AB, Do not distribute").color(
+      l.name = Text.of("Minecraft, © Mojang AB 请勿二次分发！").color(
         0xffffff
       );
       l.x = ui.width - l.width - 3;
       l.y = ui.height - 7;
       l.shadow = true;
     });
-
+    
     //VM汉化
     ui.label((l) => {
       l.height = 7;

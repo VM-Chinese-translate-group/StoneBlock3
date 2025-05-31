@@ -39,6 +39,19 @@ onEvent("rei.group", (event) => {
     "bloodmagic:upgradetome",
     "rftoolsutility:syringe",
     "immersiveengineering:shader",
+    "tconstruct:bow_limb",
+    "tconstruct:bow_grip",
+    "tconstruct:bowstring",
+    "tconstruct:crossbow",
+    "tconstruct:longbow",
+    "tconstruct:foundry_controller",
+    "tconstruct:seared_drain",
+    "tconstruct:scorched_drain",
+    "tconstruct:seared_duct",
+    "tconstruct:seared_chute",
+    "tconstruct:scorched_chute",
+    "tconstruct:scorched_duct",
+    "tconstruct:smeltery_controller"
   ];
 
   useNbt.forEach((id) => {

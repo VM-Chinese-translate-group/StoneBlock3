@@ -17,7 +17,7 @@ onEvent("item.registry", (event) => {
   event.create("ftbstoneblock:ritual_starter").displayName("仪式启动器");
   event.create("ftbstoneblock:cold_silverfish_shard");
   event.create("ftbstoneblock:warm_silverfish_shard");
-  event.create("ftbstoneblock:silverfish_heart").glow(true);
+  event.create("ftbstoneblock:silverfish_heart").fireResistant(true).glow(true);
   event
     .create("ftbstoneblock:incomplete_watch")
     .texture("projecte:item/rings/time_watch_off");
@@ -129,9 +129,7 @@ event
   event
     .create("avaritia:uraninite_singularity")
     .displayName("晶质铀奇点");
-  event
-    .create("avaritia:wall_singularity")
-    .displayName("墙奇点");
+  event.create("avaritia:wall_singularity").displayName("墙奇点");
   event
     .create("avaritia:emerald_cluster_singularity")
     .displayName("绿宝石簇奇点");

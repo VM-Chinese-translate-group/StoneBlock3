@@ -318,6 +318,11 @@ onEvent("rei.hide.items", (event) => {
     "tcintegrations:bronze_ingot",
     "tcintegrations:bronze_nugget",
     "create:honey_bucket",
+    'createaddition:electrum_ingot',
+    'createaddition:electrum_nugget', 
+    'createaddition:electrum_sheet', 
+    'createaddition:electrum_wire'
+    
   ];
 
   // hides items without disabling their recipes from showing in REI

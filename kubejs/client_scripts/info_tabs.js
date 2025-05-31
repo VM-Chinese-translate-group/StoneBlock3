@@ -95,7 +95,9 @@ onEvent('rei.information', (event) => {
 	event.addItem(Item.of('chickens:chicken_item', '{ChickenType:{id:"chickens:smart_chicken"}}'),
 		'智慧鸡',
 		[
-			'手持书右击原版鸡，可将原版鸡转化为智慧鸡'
+			'手持书右击原版鸡，可将原版鸡转化为智慧鸡',
+			' ',
+			'Just like a normal Chicken, making normal eggs, but has stats and can use the Roost and Henhouse'
 		]
 	)
 })
