@@ -40,7 +40,7 @@ const wanderingtraderEvent = {
     }
   },
 };
-//我在60行夹带私货，加了我的头，不过其实并没有影响游戏，还丰富了交易。——B站@捂脸祖
+
 const heads = [
   "direwolf20",
   "kSunekaer",

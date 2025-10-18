@@ -339,7 +339,7 @@ onEvent("rei.hide.items", (event) => {
 
 onEvent("rei.information", (event) => {
   event.addItem(["ftbstoneblock:stonepebble"], "石子", ["用手敲碎石头，得到石子"]);
-  event.addItem("ftbstoneblock:mob_soul", "灵魂", ["怪物死亡时有80％的几率产生"]);
+  event.addItem("ftbstoneblock:mob_soul", "灵魂", ["怪物死亡时有20％的几率掉落"]);
   event.addItem("ftbstoneblock:ritual_starter", "Rituals", ["可以在末地城找到"]);
   event.addItem("ftbstoneblock:cold_silverfish_shard", "寒冷蠹虫碎片", [
     "可以在石头区域的地牢中找到",

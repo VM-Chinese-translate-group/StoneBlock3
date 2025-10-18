@@ -3,7 +3,7 @@ onEvent('rei.information', (event) => {
 		'用手敲碎石头，得到石子',
 	])
 	event.addItem('ftbstoneblock:mob_soul', '灵魂', [
-		'怪物死亡时有80%的几率产生',
+		'怪物死亡时有20％的几率掉落',
 	])
 	event.addItem('ftbstoneblock:ritual_starter', 'Rituals', [
 		'可以在末地城里找到',

@@ -3,10 +3,10 @@
     "name": "石头世界3",
     "version": "1.11.5",
     "translation": {
+      "id": "sb3",
       "url": "https://vmct-cn.top/modpacks/sb3/",
       "language": "zh_cn",
-      "version": "1.11.5",
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/sb3.txt",
+      "version": "1.11.6",
       "resourcePackName": "VM汉化组模组汉化包1.18"
     }
   }
