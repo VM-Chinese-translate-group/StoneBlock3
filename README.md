@@ -6,9 +6,9 @@
 
 利用魔法与科技，按你的设计锻造出属于你的领域。
 
-| FTB官网                                                              | 加载器 | 支持整合包版本  | 汉化维护状态 |
+| FTB 官网                                                             | 加载器 | 支持整合包版本  | 汉化维护状态 |
 | :------------------------------------------------------------------- | :----- | :-------------- | :----------- |
-| [链接](https://www.feed-the-beast.com/modpacks/100-ftb-stoneblock-3) | Forge  | mc1.18.2 最新版 | 维护中       |
+| [链接](https://www.feed-the-beast.com/modpacks/100-ftb-stoneblock-3) | Forge  | mc1.18.2 最新版 | 维护完成     |
 
 汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/prominence2)
 
